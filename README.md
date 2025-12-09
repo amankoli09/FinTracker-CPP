@@ -47,15 +47,4 @@ expense-tracker/
 │ └── expenses.csv
 └── README.md
 
-
----
-
-## ⚙️ Build & Run
-
-```bash
-mkdir build
-cd build
-g++ -std=c++17 -I../include ../src/*.cpp -o expense_tracker
-./expense_tracker
-```
 Created by - Aman Koli
