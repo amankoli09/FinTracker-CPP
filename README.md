@@ -35,4 +35,27 @@ A clean and efficient **CLI Expense Tracker** built using **C++17**, featuring O
 ---
 
 ## 📁 Project Structure
+expense-tracker/
+├── include/
+│ ├── Expense.h
+│ └── ExpenseManager.h
+├── src/
+│ ├── Expense.cpp
+│ ├── ExpenseManager.cpp
+│ └── main.cpp
+├── data/
+│ └── expenses.csv
+└── README.md
 
+
+---
+
+## ⚙️ Build & Run
+
+```bash
+mkdir build
+cd build
+g++ -std=c++17 -I../include ../src/*.cpp -o expense_tracker
+./expense_tracker
+```
+Created by - Aman Koli
