@@ -6,8 +6,6 @@
 
 A clean and efficient **CLI Expense Tracker** built using **C++17**, featuring OOP design, CSV storage, and fast search operations.
 
----
-
 ## 🌈 Tech Stack & Tools
 
 <p align="center">
@@ -20,8 +18,6 @@ A clean and efficient **CLI Expense Tracker** built using **C++17**, featuring O
 
 </p>
 
----
-
 ## ✨ Features
 
 - Add expenses with date, category, description, amount  
@@ -31,20 +27,5 @@ A clean and efficient **CLI Expense Tracker** built using **C++17**, featuring O
 - Delete expenses by ID  
 - Category-wise totals  
 - Clean & modular C++ OOP structure  
-
----
-
-## 📁 Project Structure
-expense-tracker/
-├── include/
-│ ├── Expense.h
-│ └── ExpenseManager.h
-├── src/
-│ ├── Expense.cpp
-│ ├── ExpenseManager.cpp
-│ └── main.cpp
-├── data/
-│ └── expenses.csv
-└── README.md
 
 Created by - Aman Koli
